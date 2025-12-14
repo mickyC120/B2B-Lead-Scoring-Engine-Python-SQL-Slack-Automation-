@@ -54,9 +54,9 @@ Each dimension contributes to a final **lead score (0–100)**.
 
 | Lead Type | Score Range | Description | Action |
 |----------|------------|-------------|--------|
-| 🔥 **Hot Lead** | 70–100 | High intent, strong fit | Slack alert to `#hot-leads` |
-| 🌤 **Warm Lead** | 40–69 | Moderate potential | Slack alert to `#warm-leads` |
-| ❄ **Cold Lead** | 0–39 | Low priority | Logged only |
+|  **Hot Lead** | 70–100 | High intent, strong fit | Slack alert to `#hot-leads` |
+|  **Warm Lead** | 40–69 | Moderate potential | Slack alert to `#warm-leads` |
+|  **Cold Lead** | 0–39 | Low priority | Logged only |
 
 ---
 
@@ -68,12 +68,13 @@ When a lead qualifies as **Hot** or **Warm**, the system sends a structured Slac
 - Lead score
 - Reason for qualification
 
-Example:
-🔥 HOT LEAD ALERT
-Name: Sarah Carter
-Role: Director of Operations
-Company: Nexa Technologies
-Lead Score: 86
+### Example
+>  **HOT LEAD ALERT**  
+> **Name:** Sarah Carter  
+> **Role:** Director of Operations  
+> **Company:** Nexa Technologies  
+> **Lead Score:** 86
+
 
 
 ---
